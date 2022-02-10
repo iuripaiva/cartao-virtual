@@ -64,8 +64,7 @@ main section div {
 
 .btn{
     display: flex;
-    margin: auto;
-    min-width: 15em;
+    min-width: 11em;
     width: 15em;
     height: 2em;
     padding: 1em;
@@ -88,7 +87,7 @@ a:hover{
 
 #portfolio{
     width: 32.5em;
-    min-width: 15em;
+    min-width: 11em;
     background: rgb(112,84,186);
     background: linear-gradient(45deg, rgba(112,84,186,1) 21%, rgba(52,22,200,1) 49%, rgba(73,12,159,1) 77%);
 }
