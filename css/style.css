@@ -1,0 +1,122 @@
+:root {
+    --preto: #110224;
+    --branco: #e0e0e0;
+    --roxo: #9400ff;
+    --nunito: 'Nunito', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-weight: 400;
+    padding: 0 1em;
+    margin: auto;
+}
+
+.fundo {
+    position: fixed;
+    z-index: -1;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    opacity: .2;
+
+}
+
+header {
+    z-index: 1;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    margin-top: -0.6em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header p{
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+main {
+    z-index: 1;
+    padding-bottom: 25vh;
+}
+
+main section {
+    margin-top: 2em;
+}
+
+main section div {
+    max-width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 1.5em;
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    min-width: 15em;
+    width: 15em;
+    height: 2em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    border: 2px solid black;
+    border-radius: .3em;
+    flex-grow: 1;
+}
+
+a{
+    transition: all .5s ease 0s;
+}
+
+a:hover{
+    border: 2px solid white;
+    transition: all .5s ease 0s;
+}
+
+#portfolio{
+    width: 32.5em;
+    min-width: 15em;
+    background: rgb(112,84,186);
+    background: linear-gradient(45deg, rgba(112,84,186,1) 21%, rgba(52,22,200,1) 49%, rgba(73,12,159,1) 77%);
+}
+
+#linkedin{
+    background: rgb(135,147,163);
+    background: linear-gradient(45deg, rgba(135,147,163,1) 22%, rgba(49,105,168,1) 58%);
+}
+
+#github {
+    background: rgb(109,116,96);
+    background: linear-gradient(45deg, rgba(109,116,96,1) 7%, rgba(54,142,29,1) 58%);
+}
+
+#instagram {
+    background: rgb(131,58,180);
+    background: linear-gradient(231deg, rgba(131,58,180,1) 11%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#email {
+    background: rgb(215,146,146);
+    background: linear-gradient(45deg, rgba(215,146,146,1) 7%, rgba(179,40,40,1) 39%);
+}
+
+#icon{
+    padding-right: 10px;
+}
+
+/* transition: all 0.3s ease 0s; */
